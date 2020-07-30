@@ -129,35 +129,6 @@ div
     margin-left:1em;
     margin-right:1em;
 }
-#bottomStyle
-{
-    width:96%;
-	margin-left:1.2em;
-	margin-right:1em;
-    margin-bottom:0px;	
-	background-color: #EDEBD5;
-	
-	overflow:hidden;
-	padding-top: 15px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	
-	text-align: center;
-	font-size: 77%;
-	background-image: linear-gradient(bottom, #FFFFFF 0%, #edebd5 100%);	
-}
-
-div.footer 
-{
-    margin-top:0px;
-	clear: both;
-	height: 1.9em;
-	text-align: center;
-	width:96%;
-	margin-bottom:1em;
-}
-
 * 
 {
 	margin: 0px;
@@ -168,6 +139,7 @@ h2
 	color: #000000;
 	font-size: 152%;
 	margin-bottom: .5em;
+	margin-left: 2em;
 	font-weight: bold;
 }
 h1 
@@ -182,22 +154,17 @@ h3
 	font-size: 100%;
 	color: #333333;
 }
-p, ul, ol 
+p, ol 
 {
 	margin-bottom: 1.250em;
 	line-height: 1.2em;
 	margin-left: 3em;
 }
-
-img.left 
-{
-	float: left;
-	margin: 0 20px 10px 0;
-	width:35.5%;
-	max-width: 100%;
-	height: auto; 
+ul{
+	margin-bottom: 1.250em;
+	line-height: 1.2em;
+	margin-left: 5em;
 }
-
 img.leftimg 
 {
 	float: left;
@@ -205,38 +172,4 @@ img.leftimg
 	width:35.5%;
     max-width: 100%;	
     height: auto;
-}
-
-div.top
-{
-   overflow:hidden;
-}
-
-
-blockquote 
-{
-	padding-left: 3em;
-	font-style: italic;
-}
-
-p.openQuote::before
-{
-	content: url("quoteOpen.gif");
-	font-style: italic;
-}
-
-p.closeQuote::after
-{
-	content: url("quoteClose.gif");
-	vertical-align: top;
-}
-
-.italic
-{
-	font-style: italic;
-}
-
-.bold
-{
-	font-weight: bold;
 }
